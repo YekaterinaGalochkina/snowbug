@@ -33,7 +33,6 @@ def test_build_letter_status_dict_builds_guessed_letter_data():
         "a": False,
     }
 
-
 def test_build_letter_status_dict_builds_guessed_letter_data_excluding_non_letter_characters():
     # Arrange
     word = "ad hoc"
@@ -123,6 +122,7 @@ def test_generate_word_progress_string_builds_complete_word_with_only_alpha():
 
     # Assert
     assert board == "s n o w m a n"
+
 
 
 def test_generate_word_progress_string_builds_empty_word_with_non_alpha():
